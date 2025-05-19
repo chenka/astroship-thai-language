@@ -1,14 +1,12 @@
 @import 'tailwindcss';
 @import '@fontsource-variable/anuphan';
 @import '@fontsource/sarabun';
-@import '@fontsource-variable/inter';
-@import '@fontsource-variable/bricolage-grotesque';
 
 @plugin '@tailwindcss/typography';
 
 @theme {
   --font-sans:
-    Anuphan Variable, Sarabun, Bricolage Grotesque Variable, Inter Variable, Inter, ui-sans-serif,
+    Anuphan Variable, Sarabun, ui-sans-serif,
     system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
     'Segoe UI Symbol', 'Noto Color Emoji';
 }
