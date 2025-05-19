@@ -14,12 +14,18 @@ importers:
       '@astrojs/sitemap':
         specifier: ^3.2.1
         version: 3.4.0
+      '@fontsource-variable/anuphan':
+        specifier: ^5.2.5
+        version: 5.2.5
       '@fontsource-variable/bricolage-grotesque':
         specifier: ^5.2.5
         version: 5.2.7
       '@fontsource-variable/inter':
         specifier: ^5.2.5
         version: 5.2.5
+      '@fontsource/sarabun':
+        specifier: ^5.2.6
+        version: 5.2.6
       '@iconify-json/bx':
         specifier: ^1.2.2
         version: 1.2.2
@@ -307,11 +313,17 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource-variable/anuphan@5.2.5':
+    resolution: {integrity: sha512-cAsmHlgdceGroT6kD4Tpjg5+4704TosIeIc6zlMt1kDGv+vaMQB1JCgUnBvYjGsCa8ImCvkvf2S5B/mH7v1GgA==}
+
   '@fontsource-variable/bricolage-grotesque@5.2.7':
     resolution: {integrity: sha512-9HZ2SulWCN2ORb0gNkOtSq6o/XG0t9Bq0OAm2gWd+RlVtwe+Lxy/WL1QQ8O890ZsP9768s41HJZsLRowhoj6uA==}
 
   '@fontsource-variable/inter@5.2.5':
     resolution: {integrity: sha512-TrWffUAFOnT8zroE9YmGybagoOgM/HjRqMQ8k9R0vVgXlnUh/vnpbGPAS/Caz1KIlOPnPGh6fvJbb7DHbFCncA==}
+
+  '@fontsource/sarabun@5.2.6':
+    resolution: {integrity: sha512-3LXxvv3sa5wn++Qnio331jpsRBGDgEMy0fVfcev3P/pFwQFq34XJhv36BCQ53gP/JQ78P6zApBmh4AunMhkRvg==}
 
   '@iconify-json/bx@1.2.2':
     resolution: {integrity: sha512-hZVx6LMEkYckScdRdUuQWcmv8Lm2au6Cnf799TLoR6YgiAfFvaJ4M5ElwcnExvCu8ntsS7jW89r0W5LwBAfZXQ==}
@@ -2847,9 +2859,13 @@ snapshots:
   '@esbuild/win32-x64@0.25.4':
     optional: true
 
+  '@fontsource-variable/anuphan@5.2.5': {}
+
   '@fontsource-variable/bricolage-grotesque@5.2.7': {}
 
   '@fontsource-variable/inter@5.2.5': {}
+
+  '@fontsource/sarabun@5.2.6': {}
 
   '@iconify-json/bx@1.2.2':
     dependencies:
